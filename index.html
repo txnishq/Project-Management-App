@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header><span onclick="toggleMenu()"> &#9776;</span>Project Management App
+    </header>
+    <div class="Container">
+        <div class="menu-block">Menu</div>
+
+        <div class="container-board">
+
+            
+            <div class="add-board-block">
+             <input type="text" id="newBoardText" value="" placeholder="e.g new board">
+            <button id="add-board-btn" onclick="addBoard(newBoardText)"> Add board </button> </div>
+            
+            <div id="boardBlockList">
+            <section class="boardBlock">
+                <div>Board Name <button id="removeCardBtn" onclick="removeCards()">Remove Card </button></div>
+               <div class="project-block" id="projectBlock"></div>
+            </section>
+            </div>
+
+         </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
