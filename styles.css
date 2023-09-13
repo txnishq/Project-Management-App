@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+}
+header{
+ 
+    background-color: #186CA3;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+ cursor:pointer;
+    font-family: sans-serif;
+    
+}
+span{
+    padding-right: 5px;
+}
+.Container{
+    display:flex;
+}
+.menu-block{
+    width: 20%;
+    background-color: grey;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.container-board{
+   width:80%; 
+   background-color:rgb(255, 255, 255);
+   height: 100vh;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+#add-board-btn{
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+#searchBoard{
+    padding: 10px;
+    width:70%;
+}
+
+.project-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+ }
+ 
+ .project-card{
+     background-color: grey;
+     margin: 10px;
+     padding: 5%;
+     width:35%;
+     color: white;
+     border-radius: 2%;
+     
+ }
